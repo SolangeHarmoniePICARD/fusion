@@ -1,0 +1,20 @@
+#header-background {
+  background: url(img/1.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#new-level{
+  background-color: #262626;
+}
+
+#presence{
+  color: #ffffff;
+  font-size: 32px;
+}
+
+#build-things{
+  font-size: 48px;
+}

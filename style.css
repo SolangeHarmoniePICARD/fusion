@@ -6,15 +6,11 @@
   background-size: cover;
 }
 
-#new-level{
-  background-color: #262626;
+#first-row {
+  background-color: #202020;
 }
 
-#presence{
-  color: #ffffff;
-  font-size: 32px;
-}
-
-#build-things{
-  font-size: 48px;
+#vertical-line{
+  height: 80px;
+  width: 1px;
 }

@@ -6,15 +6,15 @@
   background-size: cover;
 }
 
-#vertical-line{
-  height: 80px;
-  width: 1px;
-}
-
 #first-row {
   background-color: #202020;
 }
 
 #second-row {
   background-color: #181818;
+}
+
+.vertical-line{
+  height: 80px;
+  width: 1px;
 }

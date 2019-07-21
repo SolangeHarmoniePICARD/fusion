@@ -6,12 +6,13 @@
   background-size: cover;
 }
 
-#first-row {
-  background-color: #202020;
-}
 
 #second-row {
   background-color: #181818;
+}
+
+.dark-row {
+  background-color: #202020;
 }
 
 .vertical-line{

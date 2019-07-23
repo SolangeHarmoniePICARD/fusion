@@ -1,0 +1,58 @@
+.field {
+  display: flex !important;
+  flex-flow: column-reverse !important;
+  margin-bottom: 1em !important;
+}
+
+label, input {
+  transition: all 0.2s !important;
+  touch-action: manipulation !important;
+}
+
+input {
+  font-size: 1em !important;
+  border: 0 !important;
+  border-bottom: 1px solid #ccc !important;
+  font-family: inherit !important;
+  -webkit-appearance: none !important;
+  border-radius: 0 !important;
+  padding: 2px !important;
+  cursor: text !important;
+  color:white !important;
+}
+
+input:focus {
+  outline: 0 !important;
+  border-bottom: 1px solid #ffc107 !important;
+}
+
+label {
+  text-transform: uppercase !important;
+    font-size: 0.8em !important;
+}
+
+input:placeholder-shown + label {
+  cursor: text !important;
+  max-width: 66.66% !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  transform-origin: left bottom !important;
+  transform: translate(0, 2.125rem) scale(1.5) !important;
+}
+
+::-webkit-input-placeholder {
+  opacity: 0 !important;
+  transition: inherit !important;
+}
+
+input:focus::-webkit-input-placeholder {
+  opacity: 1 !important;
+}
+
+input:not(:placeholder-shown) + label,
+input:focus + label {
+  transform: translate(0, 0) scale(1) !important;
+  cursor: pointer !important;
+      color: #ffc107 !important;
+}

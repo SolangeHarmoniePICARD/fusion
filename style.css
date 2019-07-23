@@ -7,12 +7,12 @@
 }
 
 
-.black-row {
-  background-color: #181818;
+.bg-shady {
+  background-color: #202020;
 }
 
-.dark-row {
-  background-color: #202020;
+.bg-black{
+  background-color: #181818 !important;
 }
 
 .vertical-line{
@@ -45,6 +45,18 @@
 .img-circle{
   border-radius:50% !important;
   width: 120px;
+}
+
+.testimonials-cards{
+  width: 100%; height: 12px; border-bottom: 1px solid white; text-align: center
+}
+
+.testimonials-author{
+  font-size: 16px; background-color: #181818; padding: 0 16px;
+}
+
+.testimonials-img{
+  height: 64px;
 }
 
 /* Flip-card */

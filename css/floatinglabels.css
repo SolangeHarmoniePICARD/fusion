@@ -27,8 +27,7 @@ input:focus {
 }
 
 label {
-  text-transform: uppercase !important;
-    font-size: 0.8em !important;
+  font-size: 1em !important;
 }
 
 input:placeholder-shown + label {

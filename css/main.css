@@ -20,23 +20,18 @@
   width: 1px;
 }
 
-.no-wrap{
-  white-space: nowrap;
-}
+
 
 .z-index-max{
   z-index: 999;
 }
 
-#position-button-carousel{
+.position-button-carousel{
   margin-top: 24px !important;
   position: relative !important;
 }
 
-#bottom-line-position{
-  margin-bottom: 64px !important;
-  position: relative !important;
-}
+
 
 .carousel-indicators .active {
     background-color: #ffc107 !important;

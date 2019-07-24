@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/flipcard.css">
   <link rel="stylesheet" href="css/floatinglabels.css">
+    <link rel="stylesheet" href="css/slideprojects.css">
   <link rel="icon" type="image/png" href="img/art.png">
 
 </head>
@@ -67,25 +68,83 @@
 
   <section class="container-fluid bg-black">
     <div class="container">
-      <div class="row">
-        <div class="col-2 mt-5 mb-5 z-index-max">
-          <div class="bg-warning mb-2 vertical-line"></div>
-          <p class="mb-4 text-warning text-uppercase font-weight-bold no-wrap"> Branding & Design</p>
-          <p class="display-3 text-white font-weight-bold no-wrap">Project One</p>
-        </div>
-        <div class="col-8 mt-5 mb-5">
-            <!-- Rajouter le caroussel projet ici -->
-        </div>
 
-        <div class="col-2 mt-5 mb-5 d-flex align-items-start flex-column">
-          <p class="text-white mt-auto mb-0"><span class="align-middle text-uppercase"><small>Project details <i class="fas fa-long-arrow-alt-right text-warning"></i></span></small></p>
-          <p class="text-white"><span class="align-middle text-uppercase"><small>View slides <i class="fas fa-long-arrow-alt-right text-warning"></i></span></small></p>
-          <div class="bg-warning vertical-line" id="bottom-line-position"></div>
-        </div>
 
-      </div>
+<!-- <div class="slideshow-container"> -->
+
+<div class="mySlides">
+  <div class="row">
+  <div class="col-2 mt-5 mb-5 z-index-max">
+    <div class="bg-warning mb-2 vertical-line"></div>
+    <p class="text-warning text-uppercase font-weight-bold no-wrap"> Branding & Design</p>
+      <p class="display-3 text-white font-weight-bold no-wrap">Project One</p>
+  </div>
+  <div class="col-8 mt-5 mb-5">
+    <img src="http://solangeharmoniepicard.fr/img/solange-harmonie-picard-005.jpg" style="width:100%">
+  </div>
+    <div class="col-2 mt-5 mb-5 d-flex align-items-start flex-column">
+      <p class="text-white mt-auto mb-0"><span class="align-middle text-uppercase"><small>Project details <i class="fas fa-long-arrow-alt-right text-warning"></i></span></small></p>
+      <p class="text-white"><span class="align-middle text-uppercase"><small>View slides <i class="fas fa-long-arrow-alt-right text-warning"></i></span></small></p>
+      <div class="bg-warning vertical-line bottom-line-position"></div>
     </div>
-  </section>
+</div>
+</div>
+
+<div class="mySlides">
+<div class="row">
+<div class="col-2 mt-5 mb-5 z-index-max">
+  <div class="bg-warning mb-2 vertical-line"></div>
+    <p class="text-warning text-uppercase font-weight-bold no-wrap"> Development back-end</p>
+    <p class="display-3 text-white font-weight-bold no-wrap">Project Two</p>
+</div>
+<div class="col-8 mt-5 mb-5">
+  <img src="http://solangeharmoniepicard.fr/img/solange-harmonie-picard-004.jpg" style="width:100%">
+</div>
+  <div class="col-2 mt-5 mb-5 d-flex align-items-start flex-column">
+    <p class="text-white mt-auto mb-0"><span class="align-middle text-uppercase"><small>Project details <i class="fas fa-long-arrow-alt-right text-warning"></i></span></small></p>
+    <p class="text-white"><span class="align-middle text-uppercase"><small>View slides <i class="fas fa-long-arrow-alt-right text-warning"></i></span></small></p>
+    <div class="bg-warning vertical-line bottom-line-position"></div>
+  </div>
+</div>
+</div>
+
+
+
+
+<div class="mySlides">
+  <div class="row">
+  <div class="col-2 mt-5 mb-5 z-index-max">
+    <div class="bg-warning mb-2 vertical-line"></div>
+      <p class="text-warning text-uppercase font-weight-bold no-wrap"> Development back-end</p>
+      <p class="display-3 text-white font-weight-bold no-wrap">Project Three</p>
+  </div>
+  <div class="col-8 mt-5 mb-5">
+  <img src="http://solangeharmoniepicard.fr/img/solange-harmonie-picard-037.jpg" style="width:100%">
+</div>
+  <div class="col-2 mt-5 mb-5 d-flex align-items-start flex-column">
+    <p class="text-white mt-auto mb-0"><span class="align-middle text-uppercase"><small>Project details <i class="fas fa-long-arrow-alt-right text-warning"></i></span></small></p>
+    <p class="text-white"><span class="align-middle text-uppercase"><small>View slides <i class="fas fa-long-arrow-alt-right text-warning"></i></span></small></p>
+    <div class="bg-warning vertical-line bottom-line-position"></div>
+  </div>
+</div>
+</div>
+
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="underscore mb-5" onclick="currentSlide(1)"></span>
+  <span class="underscore mb-5" onclick="currentSlide(2)"></span>
+  <span class="underscore mb-5" onclick="currentSlide(3)"></span>
+</div>
+
+
+</div>
+
+
+</div>
+</section>
 
   <section class="container-fluid bg-shady">
     <div class="container">
@@ -126,12 +185,12 @@
                     <div class="text-center mb-5">
                         <img class="testimonials-img" src="http://www.editionsdesgrandespersonnes.com/wp-content/uploads/2015/04/BOB-GILL.jpg" alt="">
                     </div>
-                    <p class="card-text text-secondary">« Il est impossible de tenir un design entre ses mains. Le design n’est pas une chose. C’est un processus. Un système. Une manière de penser »</p>
+                    <p class="card-text text-white">« Il est impossible de tenir un design entre ses mains. Le design n’est pas une chose. C’est un processus. Un système. Une manière de penser »</p>
                     <div class="testimonials-cards mb-2">
                       <span class="text-warning testimonials-author">Bob Gill</span>
                     </div>
                     <div class="text-center">
-                        <span class="text-secondary">Graphic Designer</span>
+                        <span class="text-white">Graphic Designer</span>
                     </div>
                   </div>
                   <div class="carousel-caption d-none d-md-block"></div>
@@ -141,12 +200,12 @@
                     <div class="text-center mb-5">
                         <img class="testimonials-img" src="http://www.editionsdesgrandespersonnes.com/wp-content/uploads/2015/04/BOB-GILL.jpg" alt="">
                     </div>
-                    <p class="card-text text-secondary">« Il est impossible de tenir un design entre ses mains. Le design n’est pas une chose. C’est un processus. Un système. Une manière de penser »</p>
+                    <p class="card-text text-white">« Il est impossible de tenir un design entre ses mains. Le design n’est pas une chose. C’est un processus. Un système. Une manière de penser »</p>
                     <div class="testimonials-cards mb-2">
                       <span class="text-warning testimonials-author">Bob Gill</span>
                     </div>
                     <div class="text-center">
-                        <span class="text-secondary">Graphic Designer</span>
+                        <span class="text-white">Graphic Designer</span>
                     </div>
                   </div>
                   <div class="carousel-caption d-none d-md-block">
@@ -157,12 +216,12 @@
                     <div class="text-center mb-5">
                         <img class="testimonials-img" src="http://www.editionsdesgrandespersonnes.com/wp-content/uploads/2015/04/BOB-GILL.jpg" alt="">
                     </div>
-                    <p class="card-text text-secondary">« Il est impossible de tenir un design entre ses mains. Le design n’est pas une chose. C’est un processus. Un système. Une manière de penser »</p>
+                    <p class="card-text text-white">« Il est impossible de tenir un design entre ses mains. Le design n’est pas une chose. C’est un processus. Un système. Une manière de penser »</p>
                     <div class="testimonials-cards mb-2">
                       <span class="text-warning testimonials-author">Bob Gill</span>
                     </div>
                     <div class="text-center">
-                        <span class="text-secondary">Graphic Designer</span>
+                        <span class="text-white">Graphic Designer</span>
                     </div>
                   </div>
                   <div class="carousel-caption d-none d-md-block">
@@ -173,12 +232,12 @@
                     <div class="text-center mb-5">
                         <img class="testimonials-img" src="http://www.editionsdesgrandespersonnes.com/wp-content/uploads/2015/04/BOB-GILL.jpg" alt="">
                     </div>
-                    <p class="card-text text-secondary">« Il est impossible de tenir un design entre ses mains. Le design n’est pas une chose. C’est un processus. Un système. Une manière de penser »</p>
+                    <p class="card-text text-white">« Il est impossible de tenir un design entre ses mains. Le design n’est pas une chose. C’est un processus. Un système. Une manière de penser »</p>
                     <div class="testimonials-cards mb-2">
                       <span class="text-warning testimonials-author">Bob Gill</span>
                     </div>
                     <div class="text-center">
-                        <span class="text-secondary">Graphic Designer</span>
+                        <span class="text-white">Graphic Designer</span>
                     </div>
                   </div>
                   <div class="carousel-caption d-none d-md-block">
@@ -189,19 +248,19 @@
                     <div class="text-center mb-5">
                         <img class="testimonials-img" src="http://www.editionsdesgrandespersonnes.com/wp-content/uploads/2015/04/BOB-GILL.jpg" alt="">
                     </div>
-                    <p class="card-text text-secondary">« Il est impossible de tenir un design entre ses mains. Le design n’est pas une chose. C’est un processus. Un système. Une manière de penser »</p>
+                    <p class="card-text text-white">« Il est impossible de tenir un design entre ses mains. Le design n’est pas une chose. C’est un processus. Un système. Une manière de penser »</p>
                     <div class="testimonials-cards mb-2">
                       <span class="text-warning testimonials-author">Bob Gill</span>
                     </div>
                     <div class="text-center">
-                        <span class="text-secondary">Graphic Designer</span>
+                        <span class="text-white">Graphic Designer</span>
                     </div>
                   </div>
                   <div class="carousel-caption d-none d-md-block">
                   </div>
                 </div>
               </div>
-              <ol class="carousel-indicators" id="position-button-carousel">
+              <ol class="carousel-indicators position-button-carousel">
                 <li class="ml-2 mr-2" data-target="#carouselExampleCaptions" data-slide-to="0"></li>
                 <li class="ml-2 mr-2" data-target="#carouselExampleCaptions" data-slide-to="1"></li>
                 <li class="ml-2 mr-2 active" data-target="#carouselExampleCaptions" data-slide-to="2"></li>
@@ -304,7 +363,7 @@
       <form class="p-5 bg-black shadow-lg">
         <div class="form-row">
           <div class="field  col-md-6">
-            <input type="text" class=" bg-black border-top-0 border-right-0 border-left-0 rounded-0" id="inputName" placeholder="Solange PICARD">
+            <input type="text" class="bg-black border-top-0 border-right-0 border-left-0 rounded-0" id="inputName" placeholder="Solange PICARD">
             <label for="inputName" class="text-white text-uppercase">Your name</label>
           </div>
           <div class="field  col-md-6">
@@ -327,7 +386,7 @@
           <label for="inputMessage" class="text-white text-uppercase">Your message</label>
         </div>
         <div class="text-center">
-          <button type="submit" class="btn btn-warning text-uppercase font-weight-bold rounded-0 p-3 shadow-lg">Get in touch <i class="fas fa-long-arrow-alt-right"></i></button>
+          <button type="submit" class="btn btn-warning text-uppercase font-weight-bold rounded-0 p-2 shadow-lg">Get in touch <i class="fas fa-long-arrow-alt-right"></i></button>
         </div>
       </form>
       </div>
@@ -362,6 +421,9 @@
   </footer>
   </section>
 
+
+  <!-- My Scripts -->
+  <script type="text/javascript" src="js/slideprojects.js"></script>
 
   <!-- Fontawesome -->
   <script src="https://kit.fontawesome.com/6fee70888d.js"></script>

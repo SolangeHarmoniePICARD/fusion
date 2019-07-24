@@ -1,7 +1,7 @@
 .field {
   display: flex !important;
   flex-flow: column-reverse !important;
-  margin-bottom: 1em !important;
+  margin-bottom: 1.5em !important;
 }
 
 label, input {
@@ -10,7 +10,7 @@ label, input {
 }
 
 input {
-  font-size: 1em !important;
+  font-size: 1.2em !important;
   border: 0 !important;
   border-bottom: 1px solid #ccc !important;
   font-family: inherit !important;
@@ -27,7 +27,8 @@ input:focus {
 }
 
 label {
-  font-size: 1em !important;
+  font-size: 0.6em !important;
+  letter-spacing: 0.1em !important;
 }
 
 input:placeholder-shown + label {
@@ -53,5 +54,5 @@ input:not(:placeholder-shown) + label,
 input:focus + label {
   transform: translate(0, 0) scale(1) !important;
   cursor: pointer !important;
-      color: #ffc107 !important;
+  color: #ffc107 !important;
 }

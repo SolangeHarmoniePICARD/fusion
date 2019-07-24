@@ -28,10 +28,6 @@
   backface-visibility: hidden;
 }
 
-.flip-card-front {
-
-}
-
 .flip-card-back {
   color: white;
   transform: rotateY(180deg);
@@ -43,10 +39,16 @@
 }
 
 .flip-card-text-size{
-  font-size: 12px !important;
+  font-size: 16px !important;
 }
 
 .flip-card-left-text{
   writing-mode: vertical-rl;
   text-orientation: mixed;
+  left: 32px !important;
+}
+
+.img-circle{
+  border-radius:50% !important;
+  width: 120px;
 }

@@ -55,11 +55,20 @@
 }
 
 
-@media all and (max-width: 640px) {
-  .col-flip-img {
-    display:none;
+@media all and (max-width: 768px) {
+
+  .flip-card-left-text{
+    writing-mode: initial;
+    text-orientation: initial;
+    left: 0;
   }
+
   .border-color-flip{
       border-color: #202020 !important;
   }
+
+  .flip-flex{
+    display: flex;
+  }
+
 }

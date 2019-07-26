@@ -12,6 +12,6 @@
   </div>
   <div class="d-flex justify-content-around">
     <p class="h4 mb-4"> <a href="https://www.facebook.com/solangeharmonie.picard.5"><i class="fab fa-facebook text-warning"></i></a></p>
-    <p class="mb-4 text-white"><span class="align-middle text-uppercase">Get in touch <i class="fas fa-long-arrow-alt-right text-warning"></i></span></p>
+    <p class="mb-4 text-white"><span class="align-middle text-uppercase"><a class="text-white text-decoration-none" href="#">Get in touch <i class="fas fa-long-arrow-alt-right text-warning"></i></a></span></p>
   </div>
 </section>

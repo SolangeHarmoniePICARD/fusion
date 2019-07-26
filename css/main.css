@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .img-background {
   background: url(../img/bg-img.png) no-repeat center center fixed;
   -webkit-background-size: cover;

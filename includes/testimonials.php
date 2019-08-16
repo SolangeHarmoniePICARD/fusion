@@ -8,22 +8,22 @@
     </div>
     <div class="row flex-grow-1 justify-content-center align-items-center">
       <div class="col-sm-12 col-md-2 card-block mb-5 text-center">
-        <img src="http://solangeharmoniepicard.fr/fusion/img/autodesk.png" alt="logo autodesk">
+        <img src="https://solangeharmoniepicard.fr/fusion/img/autodesk.png" alt="logo autodesk">
       </div>
       <div class="col-sm-12 col-md-2  card-block mb-5 text-center">
-        <img src="http://solangeharmoniepicard.fr/fusion/img/mastercard.png" alt="logo mastercard">
+        <img src="https://solangeharmoniepicard.fr/fusion/img/mastercard.png" alt="logo mastercard">
       </div>
       <div class="col-sm-12 col-md-2  card-block mb-5 text-center">
-        <img src="http://solangeharmoniepicard.fr/fusion/img/intuit.png" alt="logo intuit">
+        <img src="https://solangeharmoniepicard.fr/fusion/img/intuit.png" alt="logo intuit">
       </div>
       <div class="col-sm-12 col-md-2  card-block mb-5 text-center">
-        <img src="http://solangeharmoniepicard.fr/fusion/img/mtv.png" alt="logo mtv">
+        <img src="https://solangeharmoniepicard.fr/fusion/img/mtv.png" alt="logo mtv">
       </div>
       <div class="col-sm-12 col-md-2  card-block mb-5 text-center">
-        <img src="http://solangeharmoniepicard.fr/fusion/img/pinterest.png" alt="logo pinterest">
+        <img src="https://solangeharmoniepicard.fr/fusion/img/pinterest.png" alt="logo pinterest">
       </div>
       <div class="col-sm-12 col-md-2  card-block mb-5 text-center">
-        <img src="http://solangeharmoniepicard.fr/fusion/img/salesforce.png" alt="logo salesforce">
+        <img src="https://solangeharmoniepicard.fr/fusion/img/salesforce.png" alt="logo salesforce">
       </div>
     </div>
     <div class="row flex-grow-1 justify-content-center align-items-center">
@@ -34,7 +34,7 @@
               <div class="carousel-item active">
                 <div class="card-block mb-5 mb-5 pl-5 pr-5 pb-5">
                   <div class="text-center mb-5">
-                      <img class="testimonials-img" src="http://www.editionsdesgrandespersonnes.com/wp-content/uploads/2015/04/BOB-GILL.jpg" alt="">
+                      <img class="testimonials-img" src="https://www.editionsdesgrandespersonnes.com/wp-content/uploads/2015/04/BOB-GILL.jpg" alt="">
                   </div>
                   <p class="card-text text-white">« Il est impossible de tenir un design entre ses mains. Le design n’est pas une chose. C’est un processus. Un système. Une manière de penser »</p>
                   <div class="testimonials-cards mb-2">
@@ -49,7 +49,7 @@
               <div class="carousel-item">
                 <div class="card-block mb-5 mb-5 pl-5 pr-5 pb-5">
                   <div class="text-center mb-5">
-                      <img class="testimonials-img" src="http://www.editionsdesgrandespersonnes.com/wp-content/uploads/2015/04/BOB-GILL.jpg" alt="">
+                      <img class="testimonials-img" src="https://www.editionsdesgrandespersonnes.com/wp-content/uploads/2015/04/BOB-GILL.jpg" alt="">
                   </div>
                   <p class="card-text text-white">« Il est impossible de tenir un design entre ses mains. Le design n’est pas une chose. C’est un processus. Un système. Une manière de penser »</p>
                   <div class="testimonials-cards mb-2">
@@ -65,7 +65,7 @@
               <div class="carousel-item">
                 <div class="card-block mb-5 mb-5 pl-5 pr-5 pb-5">
                   <div class="text-center mb-5">
-                      <img class="testimonials-img" src="http://www.editionsdesgrandespersonnes.com/wp-content/uploads/2015/04/BOB-GILL.jpg" alt="">
+                      <img class="testimonials-img" src="https://www.editionsdesgrandespersonnes.com/wp-content/uploads/2015/04/BOB-GILL.jpg" alt="">
                   </div>
                   <p class="card-text text-white">« Il est impossible de tenir un design entre ses mains. Le design n’est pas une chose. C’est un processus. Un système. Une manière de penser »</p>
                   <div class="testimonials-cards mb-2">
@@ -81,7 +81,7 @@
               <div class="carousel-item">
                 <div class="card-block mb-5 mb-5 pl-5 pr-5 pb-5">
                   <div class="text-center mb-5">
-                      <img class="testimonials-img" src="http://www.editionsdesgrandespersonnes.com/wp-content/uploads/2015/04/BOB-GILL.jpg" alt="">
+                      <img class="testimonials-img" src="https://www.editionsdesgrandespersonnes.com/wp-content/uploads/2015/04/BOB-GILL.jpg" alt="">
                   </div>
                   <p class="card-text text-white">« Il est impossible de tenir un design entre ses mains. Le design n’est pas une chose. C’est un processus. Un système. Une manière de penser »</p>
                   <div class="testimonials-cards mb-2">
@@ -97,7 +97,7 @@
               <div class="carousel-item">
                 <div class="card-block mb-5 mb-5 pl-5 pr-5 pb-5">
                   <div class="text-center mb-5">
-                      <img class="testimonials-img" src="http://www.editionsdesgrandespersonnes.com/wp-content/uploads/2015/04/BOB-GILL.jpg" alt="">
+                      <img class="testimonials-img" src="https://www.editionsdesgrandespersonnes.com/wp-content/uploads/2015/04/BOB-GILL.jpg" alt="">
                   </div>
                   <p class="card-text text-white">« Il est impossible de tenir un design entre ses mains. Le design n’est pas une chose. C’est un processus. Un système. Une manière de penser »</p>
                   <div class="testimonials-cards mb-2">
